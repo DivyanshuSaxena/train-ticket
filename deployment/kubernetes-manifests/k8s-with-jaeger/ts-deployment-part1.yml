@@ -897,6 +897,8 @@ spec:
             protocol: UDP
           - containerPort: 5778
             protocol: TCP
+          - containerPort: 16685
+            protocol: TCP
           - containerPort: 16686
             protocol: TCP
           - containerPort: 9411
